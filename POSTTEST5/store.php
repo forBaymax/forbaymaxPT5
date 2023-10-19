@@ -16,7 +16,7 @@ if(isset($_POST['input'])){
 		echo "
 		<script>
 			alert('Data Berhasil Di Tambahkan');
-			document.location.href = 'test1.php';
+			document.location.href = 'indexAdmin.php';
 		</script>";
 		// header('location:test1.php?status= sukses');
 	}else{
