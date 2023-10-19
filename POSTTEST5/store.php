@@ -23,7 +23,7 @@ if(isset($_POST['input'])){
 		echo"
 		<script>
 			alert('Data Tidak Berhasil Di Tambahkan');
-			document.location.href = 'create.php';
+			document.location.href = 'tambah.php';
 		</script>";
 		// header('location:ambil.php?status =sukses');
 
